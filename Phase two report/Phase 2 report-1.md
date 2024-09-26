@@ -1,5 +1,6 @@
-# Phase 2 Drug Discovery: Bioactivity Prediction
+# Building a ML model to predict the IC50
 ## Authors (@slack): Hanna, BigWils, samar-samir, sarasamer22, DerleenM
+## link to [code script](https://github.com/Hana-Nadir/hackbio_cancer_internship_stage_3/blob/main/ML%20project%20python%20script/Building%20ML%20model%20to%20predict%20the%20pIC50.ipynb)
 
 ## Introduction
 In this project, the goal was to develop a machine learning model to predict compounds' bioactivity against a therapeutic target. We focused on Methionine Aminopeptidase 2, a cancer-related protein. Bioactivity data were retrieved from the ChEMBL database, specifically compounds with IC50 values, which indicate the concentration required to inhibit 50% of the target protein's activity.
@@ -26,7 +27,7 @@ Key molecular descriptors influencing bioactivity include:
 - **LogP**: Lipophilicity affected compounds’ ability to permeate membranes.
 - **Hydrogen Bond Acceptors/Donors**: Essential for compound-target interactions.
 
-The scatter plot below shows a positive correlation between binding affinity from ligands in phase one and pIC50 predicted using our model.This indicates that compounds with stronger binding affinity tend to exhibit higher potency, helping to identify potent compounds and outliers. It provides insights into structure-activity relationships and guides optimization in drug discovery.
+The scatter plot below shows a positive correlation between binding affinity from ligands in phase one and their pIC50 predicted using our model.This indicates that compounds with stronger binding affinity tend to exhibit higher potency, helping to identify potent compounds and outliers. It provides insights into structure-activity relationships and guides optimization in drug discovery.
 
 ![Binding Affinity vs. pIC50](https://github.com/Wilsudofia/Hackbio-Phase-2/blob/main/Phase%202/pIC50%20VS%20Docking%20score.png)
 
