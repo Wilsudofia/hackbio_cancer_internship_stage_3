@@ -1,6 +1,6 @@
 # Building a ML model to predict the IC50
 ## Authors (@slack): Hanna, BigWils, samar-samir, sarasamer22, DerleenM
-## link to [code script](https://github.com/Hana-Nadir/hackbio_cancer_internship_stage_3/blob/main/ML%20project%20python%20script/Building%20ML%20model%20to%20predict%20the%20pIC50.ipynb)
+## Link to [The project script](https://github.com/Hana-Nadir/hackbio_cancer_internship_stage_3/blob/main/ML%20project%20python%20script/Building%20ML%20model%20to%20predict%20the%20pIC50.ipynb)
 
 ## Introduction
 In this project, the goal was to develop a machine learning model to predict compounds' bioactivity against a therapeutic target. We focused on Methionine Aminopeptidase 2, a cancer-related protein. Bioactivity data were retrieved from the ChEMBL database, specifically compounds with IC50 values, which indicate the concentration required to inhibit 50% of the target protein's activity.
